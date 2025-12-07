@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Syndrome_Generator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="my_types_pkg" />
+            <top_module name="tb_Syndrome_Generator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="168.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="726.001 ns"></ZoomEndTime>
+      <Cursor1Time time="346.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="371"></NameColumnWidth>
+      <ValueColumnWidth column_width="176"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Syndrome_Generator/t_clk_period" type="other">
+         <obj_property name="ElementShortName">t_clk_period</obj_property>
+         <obj_property name="ObjectShortName">t_clk_period</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/RESET_DONE" type="logic">
+         <obj_property name="ElementShortName">RESET_DONE</obj_property>
+         <obj_property name="ObjectShortName">RESET_DONE</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/c_GF_POWER" type="other">
+         <obj_property name="ElementShortName">c_GF_POWER</obj_property>
+         <obj_property name="ObjectShortName">c_GF_POWER</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/c_ERR_CORRECTION_CAPACITY" type="other">
+         <obj_property name="ElementShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="ObjectShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/c_NUM_SYNDROME" type="other">
+         <obj_property name="ElementShortName">c_NUM_SYNDROME</obj_property>
+         <obj_property name="ObjectShortName">c_NUM_SYNDROME</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/i_data" type="logic">
+         <obj_property name="ElementShortName">i_data</obj_property>
+         <obj_property name="ObjectShortName">i_data</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/o_syndrome" type="array">
+         <obj_property name="ElementShortName">o_syndrome[1:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome[1:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/o_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">o_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">S1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/i_data" type="logic">
+         <obj_property name="ElementShortName">i_data</obj_property>
+         <obj_property name="ObjectShortName">i_data</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/o_syndrome" type="array">
+         <obj_property name="ElementShortName">o_syndrome[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/o_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">o_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/r_count" type="other">
+         <obj_property name="ElementShortName">r_count</obj_property>
+         <obj_property name="ObjectShortName">r_count</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group60" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/r_syndrome" type="array">
+            <obj_property name="ElementShortName">r_syndrome[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/r_syndrome_mult_alpha" type="array">
+            <obj_property name="ElementShortName">r_syndrome_mult_alpha[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_mult_alpha[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/r_syndrome_valid" type="logic">
+            <obj_property name="ElementShortName">r_syndrome_valid</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/w_received_bit" type="array">
+            <obj_property name="ElementShortName">w_received_bit[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_received_bit[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/g_DATA_WIDTH" type="other">
+            <obj_property name="ElementShortName">g_DATA_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">g_DATA_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/g_ALPHA_POWER" type="other">
+            <obj_property name="ElementShortName">g_ALPHA_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_ALPHA_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(1)\/Syndrome_Calculator_inst/c_CODEWORD_LENGTH" type="other">
+            <obj_property name="ElementShortName">c_CODEWORD_LENGTH</obj_property>
+            <obj_property name="ObjectShortName">c_CODEWORD_LENGTH</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">S2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/i_data" type="logic">
+         <obj_property name="ElementShortName">i_data</obj_property>
+         <obj_property name="ObjectShortName">i_data</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/o_syndrome" type="array">
+         <obj_property name="ElementShortName">o_syndrome[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/o_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">o_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/r_count" type="other">
+         <obj_property name="ElementShortName">r_count</obj_property>
+         <obj_property name="ObjectShortName">r_count</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group61" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/r_syndrome" type="array">
+            <obj_property name="ElementShortName">r_syndrome[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/r_syndrome_mult_alpha" type="array">
+            <obj_property name="ElementShortName">r_syndrome_mult_alpha[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_mult_alpha[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/r_syndrome_valid" type="logic">
+            <obj_property name="ElementShortName">r_syndrome_valid</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/w_received_bit" type="array">
+            <obj_property name="ElementShortName">w_received_bit[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_received_bit[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/g_DATA_WIDTH" type="other">
+            <obj_property name="ElementShortName">g_DATA_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">g_DATA_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/g_ALPHA_POWER" type="other">
+            <obj_property name="ElementShortName">g_ALPHA_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_ALPHA_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Syndrome_Generator/Syndrome_Generator_inst/\SYNDROMES(2)\/Syndrome_Calculator_inst/c_CODEWORD_LENGTH" type="other">
+            <obj_property name="ElementShortName">c_CODEWORD_LENGTH</obj_property>
+            <obj_property name="ObjectShortName">c_CODEWORD_LENGTH</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

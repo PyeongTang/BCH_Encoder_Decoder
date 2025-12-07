@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_GF_DIV_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_GF_DIV" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="196.237 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="371"></NameColumnWidth>
+      <ValueColumnWidth column_width="176"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_GF_DIV/t_clk_period" type="other">
+         <obj_property name="ElementShortName">t_clk_period</obj_property>
+         <obj_property name="ObjectShortName">t_clk_period</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/RESET_DONE" type="logic">
+         <obj_property name="ElementShortName">RESET_DONE</obj_property>
+         <obj_property name="ObjectShortName">RESET_DONE</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/c_GF_POWER" type="other">
+         <obj_property name="ElementShortName">c_GF_POWER</obj_property>
+         <obj_property name="ObjectShortName">c_GF_POWER</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_A" type="array">
+         <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_A_valid" type="logic">
+         <obj_property name="ElementShortName">i_A_valid</obj_property>
+         <obj_property name="ObjectShortName">i_A_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_B" type="array">
+         <obj_property name="ElementShortName">i_B[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_B[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/i_B_valid" type="logic">
+         <obj_property name="ElementShortName">i_B_valid</obj_property>
+         <obj_property name="ObjectShortName">i_B_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/o_Q" type="array">
+         <obj_property name="ElementShortName">o_Q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Q[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/o_Q_valid" type="logic">
+         <obj_property name="ElementShortName">o_Q_valid</obj_property>
+         <obj_property name="ObjectShortName">o_Q_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group50" type="group">
+      <obj_property name="label">GF_DIV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_A" type="array">
+         <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_A_valid" type="logic">
+         <obj_property name="ElementShortName">i_A_valid</obj_property>
+         <obj_property name="ObjectShortName">i_A_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_B" type="array">
+         <obj_property name="ElementShortName">i_B[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_B[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/i_B_valid" type="logic">
+         <obj_property name="ElementShortName">i_B_valid</obj_property>
+         <obj_property name="ObjectShortName">i_B_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/o_Q" type="array">
+         <obj_property name="ElementShortName">o_Q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Q[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/o_Q_valid" type="logic">
+         <obj_property name="ElementShortName">o_Q_valid</obj_property>
+         <obj_property name="ObjectShortName">o_Q_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group93" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/w_B_INV" type="array">
+            <obj_property name="ElementShortName">w_B_INV[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_B_INV[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/w_B_INV_valid" type="logic">
+            <obj_property name="ElementShortName">w_B_INV_valid</obj_property>
+            <obj_property name="ObjectShortName">w_B_INV_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/w_Q" type="array">
+            <obj_property name="ElementShortName">w_Q[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_Q[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/w_Q_valid" type="logic">
+            <obj_property name="ElementShortName">w_Q_valid</obj_property>
+            <obj_property name="ObjectShortName">w_Q_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">GF_MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_A" type="array">
+         <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_A_valid" type="logic">
+         <obj_property name="ElementShortName">i_A_valid</obj_property>
+         <obj_property name="ObjectShortName">i_A_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_B" type="array">
+         <obj_property name="ElementShortName">i_B[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_B[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/i_B_valid" type="logic">
+         <obj_property name="ElementShortName">i_B_valid</obj_property>
+         <obj_property name="ObjectShortName">i_B_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/o_P" type="array">
+         <obj_property name="ElementShortName">o_P[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_P[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/o_P_valid" type="logic">
+         <obj_property name="ElementShortName">o_P_valid</obj_property>
+         <obj_property name="ObjectShortName">o_P_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group94" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_A_exp" type="array">
+            <obj_property name="ElementShortName">w_A_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_A_exp_valid" type="logic">
+            <obj_property name="ElementShortName">w_A_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_B_exp" type="array">
+            <obj_property name="ElementShortName">w_B_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_B_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_B_exp_valid" type="logic">
+            <obj_property name="ElementShortName">w_B_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">w_B_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/r_A_exp" type="other">
+            <obj_property name="ElementShortName">r_A_exp</obj_property>
+            <obj_property name="ObjectShortName">r_A_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/r_B_exp" type="other">
+            <obj_property name="ElementShortName">r_B_exp</obj_property>
+            <obj_property name="ObjectShortName">r_B_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/r_P_exp" type="other">
+            <obj_property name="ElementShortName">r_P_exp</obj_property>
+            <obj_property name="ObjectShortName">r_P_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_P_exp" type="array">
+            <obj_property name="ElementShortName">w_P_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_P_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_P_index" type="array">
+            <obj_property name="ElementShortName">w_P_index[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_P_index[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/r_P_index" type="array">
+            <obj_property name="ElementShortName">r_P_index[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_P_index[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/w_P_valid" type="logic">
+            <obj_property name="ElementShortName">w_P_valid</obj_property>
+            <obj_property name="ObjectShortName">w_P_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_MULT_inst/c_MOD" type="other">
+            <obj_property name="ElementShortName">c_MOD</obj_property>
+            <obj_property name="ObjectShortName">c_MOD</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group75" type="group">
+      <obj_property name="label">GF_INV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/i_A" type="array">
+         <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/i_A_valid" type="logic">
+         <obj_property name="ElementShortName">i_A_valid</obj_property>
+         <obj_property name="ObjectShortName">i_A_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/o_A_INV" type="array">
+         <obj_property name="ElementShortName">o_A_INV[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_A_INV[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/o_A_INV_valid" type="logic">
+         <obj_property name="ElementShortName">o_A_INV_valid</obj_property>
+         <obj_property name="ObjectShortName">o_A_INV_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group95" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/w_A_exp" type="array">
+            <obj_property name="ElementShortName">w_A_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/r_A_exp" type="other">
+            <obj_property name="ElementShortName">r_A_exp</obj_property>
+            <obj_property name="ObjectShortName">r_A_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/r_A_exp_valid" type="logic">
+            <obj_property name="ElementShortName">r_A_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">r_A_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/w_A_exp_valid" type="logic">
+            <obj_property name="ElementShortName">w_A_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/r_A_INV_exp" type="other">
+            <obj_property name="ElementShortName">r_A_INV_exp</obj_property>
+            <obj_property name="ObjectShortName">r_A_INV_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/w_A_INV_exp" type="array">
+            <obj_property name="ElementShortName">w_A_INV_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/r_A_INV_exp_valid" type="logic">
+            <obj_property name="ElementShortName">r_A_INV_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">r_A_INV_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/w_A_INV_index" type="array">
+            <obj_property name="ElementShortName">w_A_INV_index[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_index[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/w_A_INV_index_valid" type="logic">
+            <obj_property name="ElementShortName">w_A_INV_index_valid</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_index_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_GF_DIV/GF_DIV_inst/GF_INV_inst/c_MOD" type="other">
+            <obj_property name="ElementShortName">c_MOD</obj_property>
+            <obj_property name="ObjectShortName">c_MOD</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

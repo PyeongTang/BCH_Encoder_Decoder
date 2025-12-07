@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BCH_Decoder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="my_types_pkg" />
+            <top_module name="tb_BCH_Decoder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="517.917 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,970.418 ns"></ZoomEndTime>
+      <Cursor1Time time="542.917 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="158"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+      <marker time="37160000" label="" />
+      <marker time="23460000" label="" />
+      <marker time="400000" label="" />
+      <marker time="40000" label="" />
+      <marker time="11380000" label="" />
+      <marker time="2200000" label="" />
+      <marker time="13200000" label="" />
+      <marker time="26000000" label="" />
+      <marker time="1120000" label="" />
+      <marker time="760000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_BCH_Decoder/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/t_clk_period" type="other">
+         <obj_property name="ElementShortName">t_clk_period</obj_property>
+         <obj_property name="ObjectShortName">t_clk_period</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/RESET_DONE" type="logic">
+         <obj_property name="ElementShortName">RESET_DONE</obj_property>
+         <obj_property name="ObjectShortName">RESET_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/i_encoded_data" type="array">
+         <obj_property name="ElementShortName">i_encoded_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">i_encoded_data[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/i_encoded_data_valid" type="logic">
+         <obj_property name="ElementShortName">i_encoded_data_valid</obj_property>
+         <obj_property name="ObjectShortName">i_encoded_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/o_decoded_data" type="array">
+         <obj_property name="ElementShortName">o_decoded_data[4:0]</obj_property>
+         <obj_property name="ObjectShortName">o_decoded_data[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/o_decoded_data_valid" type="logic">
+         <obj_property name="ElementShortName">o_decoded_data_valid</obj_property>
+         <obj_property name="ObjectShortName">o_decoded_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/o_decode_ready" type="logic">
+         <obj_property name="ElementShortName">o_decode_ready</obj_property>
+         <obj_property name="ObjectShortName">o_decode_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_GF_POWER" type="other">
+         <obj_property name="ElementShortName">c_GF_POWER</obj_property>
+         <obj_property name="ObjectShortName">c_GF_POWER</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_CODEWORD_WIDTH" type="other">
+         <obj_property name="ElementShortName">c_CODEWORD_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">c_CODEWORD_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_MESSAGE_WIDTH" type="other">
+         <obj_property name="ElementShortName">c_MESSAGE_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">c_MESSAGE_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_PARITY_WIDTH" type="other">
+         <obj_property name="ElementShortName">c_PARITY_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">c_PARITY_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_ERR_CORRECTION_CAPACITY" type="other">
+         <obj_property name="ElementShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="ObjectShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/c_PRIMITIVE_POLY" type="array">
+         <obj_property name="ElementShortName">c_PRIMITIVE_POLY[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_PRIMITIVE_POLY[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/r_message" type="array">
+      <obj_property name="ElementShortName">r_message[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_message[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/r_parity" type="array">
+      <obj_property name="ElementShortName">r_parity[9:0]</obj_property>
+      <obj_property name="ObjectShortName">r_parity[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/i_encoded_data" type="array">
+      <obj_property name="ElementShortName">i_encoded_data[14:0]</obj_property>
+      <obj_property name="ObjectShortName">i_encoded_data[14:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/r_error_bit" type="array">
+      <obj_property name="ElementShortName">r_error_bit[14:0]</obj_property>
+      <obj_property name="ObjectShortName">r_error_bit[14:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_BCH_Decoder/r_rx_codeword" type="array">
+      <obj_property name="ElementShortName">r_rx_codeword[14:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rx_codeword[14:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group128" type="group">
+      <obj_property name="label">BCH Decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_encoded_data_valid" type="logic">
+         <obj_property name="ElementShortName">i_encoded_data_valid</obj_property>
+         <obj_property name="ObjectShortName">i_encoded_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_encoded_data" type="array">
+         <obj_property name="ElementShortName">i_encoded_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">i_encoded_data[14:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_encoded_data" type="array">
+         <obj_property name="ElementShortName">i_encoded_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">i_encoded_data[14:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decoded_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_decoded_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">r_decoded_data[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="label">r_decoded_data[14:0] (Entire Codeword)</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decoded_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_decoded_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">r_decoded_data[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="label">r_decoded_data[14:0] (Entire Codeword)</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/o_decoded_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">o_decoded_data[4:0]</obj_property>
+         <obj_property name="ObjectShortName">o_decoded_data[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="label">o_decoded_data[6:0] (Message Only)</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/o_decoded_data_valid" type="logic">
+         <obj_property name="ElementShortName">o_decoded_data_valid</obj_property>
+         <obj_property name="ObjectShortName">o_decoded_data_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/o_decode_ready" type="logic">
+         <obj_property name="ElementShortName">o_decode_ready</obj_property>
+         <obj_property name="ObjectShortName">o_decode_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group178" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/i_encoded_data_valid" type="logic">
+            <obj_property name="ElementShortName">i_encoded_data_valid</obj_property>
+            <obj_property name="ObjectShortName">i_encoded_data_valid</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_encoded_data_valid" type="logic">
+            <obj_property name="ElementShortName">r_encoded_data_valid</obj_property>
+            <obj_property name="ObjectShortName">r_encoded_data_valid</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decode_ready" type="logic">
+            <obj_property name="ElementShortName">r_decode_ready</obj_property>
+            <obj_property name="ObjectShortName">r_decode_ready</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_rx_bit" type="logic">
+            <obj_property name="ElementShortName">w_rx_bit</obj_property>
+            <obj_property name="ObjectShortName">w_rx_bit</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_rx_bit_valid" type="logic">
+            <obj_property name="ElementShortName">w_rx_bit_valid</obj_property>
+            <obj_property name="ObjectShortName">w_rx_bit_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_codeword" type="array">
+            <obj_property name="ElementShortName">r_codeword[14:0]</obj_property>
+            <obj_property name="ObjectShortName">r_codeword[14:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_syndrome" type="array">
+            <obj_property name="ElementShortName">w_syndrome[0:5][3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_syndrome[0:5][3:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_syndrome_valid" type="logic">
+            <obj_property name="ElementShortName">w_syndrome_valid</obj_property>
+            <obj_property name="ObjectShortName">w_syndrome_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_sigma" type="array">
+            <obj_property name="ElementShortName">w_sigma[0:3][3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_sigma[0:3][3:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_sigma_valid" type="logic">
+            <obj_property name="ElementShortName">w_sigma_valid</obj_property>
+            <obj_property name="ObjectShortName">w_sigma_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_error_bit_position" type="array">
+            <obj_property name="ElementShortName">w_error_bit_position[14:0]</obj_property>
+            <obj_property name="ObjectShortName">w_error_bit_position[14:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_error_bit_position_valid" type="logic">
+            <obj_property name="ElementShortName">w_error_bit_position_valid</obj_property>
+            <obj_property name="ObjectShortName">w_error_bit_position_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decoded_data" type="array">
+            <obj_property name="ElementShortName">r_decoded_data[14:0]</obj_property>
+            <obj_property name="ObjectShortName">r_decoded_data[14:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decoded_data_valid" type="logic">
+            <obj_property name="ElementShortName">r_decoded_data_valid</obj_property>
+            <obj_property name="ObjectShortName">r_decoded_data_valid</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_decoded_done" type="logic">
+            <obj_property name="ElementShortName">r_decoded_done</obj_property>
+            <obj_property name="ObjectShortName">r_decoded_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="group294" type="group">
+            <obj_property name="label">CONST</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/g_GF_POWER" type="other">
+               <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+               <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/g_CODEWORD_WIDTH" type="other">
+               <obj_property name="ElementShortName">g_CODEWORD_WIDTH</obj_property>
+               <obj_property name="ObjectShortName">g_CODEWORD_WIDTH</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/g_MESSAGE_WIDTH" type="other">
+               <obj_property name="ElementShortName">g_MESSAGE_WIDTH</obj_property>
+               <obj_property name="ObjectShortName">g_MESSAGE_WIDTH</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/g_PARITY_WIDTH" type="other">
+               <obj_property name="ElementShortName">g_PARITY_WIDTH</obj_property>
+               <obj_property name="ObjectShortName">g_PARITY_WIDTH</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+               <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+               <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">Shift Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/i_data" type="array">
+         <obj_property name="ElementShortName">i_data[14:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data[14:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/o_data" type="logic">
+         <obj_property name="ElementShortName">o_data</obj_property>
+         <obj_property name="ObjectShortName">o_data</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/o_valid" type="logic">
+         <obj_property name="ElementShortName">o_valid</obj_property>
+         <obj_property name="ObjectShortName">o_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/o_ready" type="logic">
+         <obj_property name="ElementShortName">o_ready</obj_property>
+         <obj_property name="ObjectShortName">o_ready</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group157" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_shift_register" type="array">
+            <obj_property name="ElementShortName">r_shift_register[14:0]</obj_property>
+            <obj_property name="ObjectShortName">r_shift_register[14:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_valid" type="logic">
+            <obj_property name="ElementShortName">r_valid</obj_property>
+            <obj_property name="ObjectShortName">r_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_ready" type="logic">
+            <obj_property name="ElementShortName">r_ready</obj_property>
+            <obj_property name="ObjectShortName">r_ready</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_count_enable" type="logic">
+            <obj_property name="ElementShortName">r_count_enable</obj_property>
+            <obj_property name="ObjectShortName">r_count_enable</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_count" type="other">
+            <obj_property name="ElementShortName">r_count</obj_property>
+            <obj_property name="ObjectShortName">r_count</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/r_count_done" type="logic">
+            <obj_property name="ElementShortName">r_count_done</obj_property>
+            <obj_property name="ObjectShortName">r_count_done</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Shift_Register_Signle_Bit_inst/g_INPUT_DATA_WIDTH" type="other">
+            <obj_property name="ElementShortName">g_INPUT_DATA_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">g_INPUT_DATA_WIDTH</obj_property>
+            <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">Syndrome Generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/i_data" type="logic">
+         <obj_property name="ElementShortName">i_data</obj_property>
+         <obj_property name="ObjectShortName">i_data</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/o_syndrome" type="array">
+         <obj_property name="ElementShortName">o_syndrome[0:5][3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome[0:5][3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/o_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">o_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">r_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">r_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/r_error_occured" type="logic">
+         <obj_property name="ElementShortName">r_error_occured</obj_property>
+         <obj_property name="ObjectShortName">r_error_occured</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/w_BM_enable" type="logic">
+         <obj_property name="ElementShortName">w_BM_enable</obj_property>
+         <obj_property name="ObjectShortName">w_BM_enable</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group158" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/w_syndrome" type="array">
+            <obj_property name="ElementShortName">w_syndrome[0:5][3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_syndrome[0:5][3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/w_syndrome_valid" type="logic">
+            <obj_property name="ElementShortName">w_syndrome_valid</obj_property>
+            <obj_property name="ObjectShortName">w_syndrome_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+            <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/c_NUM_SYNDROME" type="other">
+            <obj_property name="ElementShortName">c_NUM_SYNDROME</obj_property>
+            <obj_property name="ObjectShortName">c_NUM_SYNDROME</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">BM Solver</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/i_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">i_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/i_syndrome" type="array">
+         <obj_property name="ElementShortName">i_syndrome[0:5][3:0]</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome[0:5][3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/o_sigma" type="array">
+         <obj_property name="ElementShortName">o_sigma[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sigma[0:3][3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/o_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">o_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">o_sigma_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/present_state" type="other">
+         <obj_property name="ElementShortName">present_state</obj_property>
+         <obj_property name="ObjectShortName">present_state</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group267" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group291" type="group">
+            <obj_property name="label">Count</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/n" type="other">
+               <obj_property name="ElementShortName">n</obj_property>
+               <obj_property name="ObjectShortName">n</obj_property>
+               <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/m" type="other">
+               <obj_property name="ElementShortName">m</obj_property>
+               <obj_property name="ObjectShortName">m</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/k" type="other">
+               <obj_property name="ElementShortName">k</obj_property>
+               <obj_property name="ObjectShortName">k</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/L" type="other">
+               <obj_property name="ElementShortName">L</obj_property>
+               <obj_property name="ObjectShortName">L</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_sigma_valid" type="logic">
+               <obj_property name="ElementShortName">r_sigma_valid</obj_property>
+               <obj_property name="ObjectShortName">r_sigma_valid</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group278" type="group">
+            <obj_property name="label">CAL_D</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/n" type="other">
+               <obj_property name="ElementShortName">n</obj_property>
+               <obj_property name="ObjectShortName">n</obj_property>
+               <obj_property name="CustomSignalColor">#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/L" type="other">
+               <obj_property name="ElementShortName">L</obj_property>
+               <obj_property name="ObjectShortName">L</obj_property>
+               <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/i" type="other">
+               <obj_property name="ElementShortName">i</obj_property>
+               <obj_property name="ObjectShortName">i</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/d" type="array">
+               <obj_property name="ElementShortName">d[3:0]</obj_property>
+               <obj_property name="ObjectShortName">d[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/syndrome" type="array">
+               <obj_property name="ElementShortName">syndrome[0:5][3:0]</obj_property>
+               <obj_property name="ObjectShortName">syndrome[0:5][3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/sigma_x" type="array">
+               <obj_property name="ElementShortName">sigma_x[0:3][3:0]</obj_property>
+               <obj_property name="ObjectShortName">sigma_x[0:3][3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group283" type="group">
+            <obj_property name="label">COEFF_UPDATE</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/m" type="other">
+               <obj_property name="ElementShortName">m</obj_property>
+               <obj_property name="ObjectShortName">m</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/k" type="other">
+               <obj_property name="ElementShortName">k</obj_property>
+               <obj_property name="ObjectShortName">k</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/T_x" type="array">
+               <obj_property name="ElementShortName">T_x[0:3][3:0]</obj_property>
+               <obj_property name="ObjectShortName">T_x[0:3][3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/d" type="array">
+               <obj_property name="ElementShortName">d[3:0]</obj_property>
+               <obj_property name="ObjectShortName">d[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/b" type="array">
+               <obj_property name="ElementShortName">b[3:0]</obj_property>
+               <obj_property name="ObjectShortName">b[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/c" type="array">
+               <obj_property name="ElementShortName">c[3:0]</obj_property>
+               <obj_property name="ObjectShortName">c[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/B_x" type="array">
+               <obj_property name="ElementShortName">B_x[0:3][3:0]</obj_property>
+               <obj_property name="ObjectShortName">B_x[0:3][3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/sigma_x" type="array">
+               <obj_property name="ElementShortName">sigma_x[0:3][3:0]</obj_property>
+               <obj_property name="ObjectShortName">sigma_x[0:3][3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group277" type="group">
+            <obj_property name="label">MULT</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_MULT_A" type="array">
+               <obj_property name="ElementShortName">r_MULT_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">r_MULT_A[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_MULT_B" type="array">
+               <obj_property name="ElementShortName">r_MULT_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">r_MULT_B[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_MULT_A_valid" type="logic">
+               <obj_property name="ElementShortName">r_MULT_A_valid</obj_property>
+               <obj_property name="ObjectShortName">r_MULT_A_valid</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_MULT_B_valid" type="logic">
+               <obj_property name="ElementShortName">r_MULT_B_valid</obj_property>
+               <obj_property name="ObjectShortName">r_MULT_B_valid</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/w_MULT_P" type="array">
+               <obj_property name="ElementShortName">w_MULT_P[3:0]</obj_property>
+               <obj_property name="ObjectShortName">w_MULT_P[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/w_MULT_P_valid" type="logic">
+               <obj_property name="ElementShortName">w_MULT_P_valid</obj_property>
+               <obj_property name="ObjectShortName">w_MULT_P_valid</obj_property>
+               <obj_property name="CustomSignalColor">#808000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group276" type="group">
+            <obj_property name="label">DIV</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_DIV_A" type="array">
+               <obj_property name="ElementShortName">r_DIV_A[3:0]</obj_property>
+               <obj_property name="ObjectShortName">r_DIV_A[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_DIV_B" type="array">
+               <obj_property name="ElementShortName">r_DIV_B[3:0]</obj_property>
+               <obj_property name="ObjectShortName">r_DIV_B[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_DIV_A_valid" type="logic">
+               <obj_property name="ElementShortName">r_DIV_A_valid</obj_property>
+               <obj_property name="ObjectShortName">r_DIV_A_valid</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/r_DIV_B_valid" type="logic">
+               <obj_property name="ElementShortName">r_DIV_B_valid</obj_property>
+               <obj_property name="ObjectShortName">r_DIV_B_valid</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/w_DIV_Q" type="array">
+               <obj_property name="ElementShortName">w_DIV_Q[3:0]</obj_property>
+               <obj_property name="ObjectShortName">w_DIV_Q[3:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/w_DIV_Q_valid" type="logic">
+               <obj_property name="ElementShortName">w_DIV_Q_valid</obj_property>
+               <obj_property name="ObjectShortName">w_DIV_Q_valid</obj_property>
+               <obj_property name="CustomSignalColor">#008080</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+            <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/BM_Solver_inst/c_MAX_DEG" type="other">
+            <obj_property name="ElementShortName">c_MAX_DEG</obj_property>
+            <obj_property name="ObjectShortName">c_MAX_DEG</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group127" type="group">
+      <obj_property name="label">Chien Horner Solver</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/i_sigma" type="array">
+         <obj_property name="ElementShortName">i_sigma[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sigma[0:3][3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/i_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">i_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">i_sigma_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/o_error_bit_position" type="array">
+         <obj_property name="ElementShortName">o_error_bit_position[14:0]</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position[14:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/o_error_bit_position_valid" type="logic">
+         <obj_property name="ElementShortName">o_error_bit_position_valid</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/present_state" type="other">
+         <obj_property name="ElementShortName">present_state</obj_property>
+         <obj_property name="ObjectShortName">present_state</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group268" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/i" type="other">
+            <obj_property name="ElementShortName">i</obj_property>
+            <obj_property name="ObjectShortName">i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/k" type="other">
+            <obj_property name="ElementShortName">k</obj_property>
+            <obj_property name="ObjectShortName">k</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/X" type="array">
+            <obj_property name="ElementShortName">X[3:0]</obj_property>
+            <obj_property name="ObjectShortName">X[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_sigma" type="array">
+            <obj_property name="ElementShortName">r_sigma[0:3][3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sigma[0:3][3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_MULT_A" type="array">
+            <obj_property name="ElementShortName">r_MULT_A[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_MULT_B" type="array">
+            <obj_property name="ElementShortName">r_MULT_B[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_MULT_A_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_A_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_MULT_B_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_B_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/w_MULT_P" type="array">
+            <obj_property name="ElementShortName">w_MULT_P[3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/w_MULT_P_valid" type="logic">
+            <obj_property name="ElementShortName">w_MULT_P_valid</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_ACC" type="array">
+            <obj_property name="ElementShortName">r_ACC[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_ACC[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_error_occured" type="logic">
+            <obj_property name="ElementShortName">r_error_occured</obj_property>
+            <obj_property name="ObjectShortName">r_error_occured</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_error_bit_position" type="array">
+            <obj_property name="ElementShortName">r_error_bit_position[14:0]</obj_property>
+            <obj_property name="ObjectShortName">r_error_bit_position[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/r_error_bit_position_valid" type="logic">
+            <obj_property name="ElementShortName">r_error_bit_position_valid</obj_property>
+            <obj_property name="ObjectShortName">r_error_bit_position_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/w_alpha_inverse" type="array">
+            <obj_property name="ElementShortName">w_alpha_inverse[3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_alpha_inverse[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+            <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/g_ALPHA_INVERSE_EXPONENT" type="other">
+            <obj_property name="ElementShortName">g_ALPHA_INVERSE_EXPONENT</obj_property>
+            <obj_property name="ObjectShortName">g_ALPHA_INVERSE_EXPONENT</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/c_MAX_CODEWORD_LENGTH" type="other">
+            <obj_property name="ElementShortName">c_MAX_CODEWORD_LENGTH</obj_property>
+            <obj_property name="ObjectShortName">c_MAX_CODEWORD_LENGTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Chien_Horner_Solver_inst/c_K_MAX" type="other">
+            <obj_property name="ElementShortName">c_K_MAX</obj_property>
+            <obj_property name="ObjectShortName">c_K_MAX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group276" type="group">
+      <obj_property name="label">Syndrome_Calculator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/i_primitive_poly" type="array">
+         <obj_property name="ElementShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="ObjectShortName">i_primitive_poly[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/i_data" type="logic">
+         <obj_property name="ElementShortName">i_data</obj_property>
+         <obj_property name="ObjectShortName">i_data</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/i_valid" type="logic">
+         <obj_property name="ElementShortName">i_valid</obj_property>
+         <obj_property name="ObjectShortName">i_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/o_syndrome" type="array">
+         <obj_property name="ElementShortName">o_syndrome[3:0]</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/o_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">o_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">o_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group277" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/r_syndrome" type="array">
+            <obj_property name="ElementShortName">r_syndrome[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/r_syndrome_mult_alpha" type="array">
+            <obj_property name="ElementShortName">r_syndrome_mult_alpha[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_mult_alpha[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/r_syndrome_valid" type="logic">
+            <obj_property name="ElementShortName">r_syndrome_valid</obj_property>
+            <obj_property name="ObjectShortName">r_syndrome_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/w_received_bit" type="array">
+            <obj_property name="ElementShortName">w_received_bit[3:0]</obj_property>
+            <obj_property name="ObjectShortName">w_received_bit[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/r_count" type="other">
+            <obj_property name="ElementShortName">r_count</obj_property>
+            <obj_property name="ObjectShortName">r_count</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/g_ALPHA_POWER" type="other">
+            <obj_property name="ElementShortName">g_ALPHA_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_ALPHA_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BCH_Decoder/BCH_Decoder_inst/Syndrome_Generator_inst/\SYNDROMES(5)\/Syndrome_Calculator_inst/c_CODEWORD_LENGTH" type="other">
+            <obj_property name="ElementShortName">c_CODEWORD_LENGTH</obj_property>
+            <obj_property name="ObjectShortName">c_CODEWORD_LENGTH</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

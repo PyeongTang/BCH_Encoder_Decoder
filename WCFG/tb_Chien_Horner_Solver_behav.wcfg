@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Chien_Horner_Solver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="my_types_pkg" />
+            <top_module name="tb_Chien_Horner_Solver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="238.001 ns"></ZoomEndTime>
+      <Cursor1Time time="2,860.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group290" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/t_clk_period" type="other">
+         <obj_property name="ElementShortName">t_clk_period</obj_property>
+         <obj_property name="ObjectShortName">t_clk_period</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/RESET_DONE" type="logic">
+         <obj_property name="ElementShortName">RESET_DONE</obj_property>
+         <obj_property name="ObjectShortName">RESET_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/i_sigma" type="array">
+         <obj_property name="ElementShortName">i_sigma[2:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sigma[2:0][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/i_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">i_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">i_sigma_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/o_error_bit_position" type="array">
+         <obj_property name="ElementShortName">o_error_bit_position[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/o_error_bit_position_valid" type="logic">
+         <obj_property name="ElementShortName">o_error_bit_position_valid</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/c_GF_POWER" type="other">
+         <obj_property name="ElementShortName">c_GF_POWER</obj_property>
+         <obj_property name="ObjectShortName">c_GF_POWER</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/c_ERR_CORRECTION_CAPACITY" type="other">
+         <obj_property name="ElementShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="ObjectShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/c_ALPHA_INVERSE_EXPONENT" type="other">
+         <obj_property name="ElementShortName">c_ALPHA_INVERSE_EXPONENT</obj_property>
+         <obj_property name="ObjectShortName">c_ALPHA_INVERSE_EXPONENT</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group318" type="group">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/i_sigma" type="array">
+         <obj_property name="ElementShortName">i_sigma[2:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_sigma[2:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/i_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">i_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">i_sigma_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/o_error_bit_position" type="array">
+         <obj_property name="ElementShortName">o_error_bit_position[7:0]</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/o_error_bit_position_valid" type="logic">
+         <obj_property name="ElementShortName">o_error_bit_position_valid</obj_property>
+         <obj_property name="ObjectShortName">o_error_bit_position_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/present_state" type="other">
+         <obj_property name="ElementShortName">present_state</obj_property>
+         <obj_property name="ObjectShortName">present_state</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/i" type="other">
+         <obj_property name="ElementShortName">i</obj_property>
+         <obj_property name="ObjectShortName">i</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/k" type="other">
+         <obj_property name="ElementShortName">k</obj_property>
+         <obj_property name="ObjectShortName">k</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/X" type="array">
+         <obj_property name="ElementShortName">X[2:0]</obj_property>
+         <obj_property name="ObjectShortName">X[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_sigma" type="array">
+         <obj_property name="ElementShortName">r_sigma[2:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sigma[2:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_ACC" type="array">
+         <obj_property name="ElementShortName">r_ACC[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ACC[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/w_alpha_inverse" type="array">
+         <obj_property name="ElementShortName">w_alpha_inverse[2:0]</obj_property>
+         <obj_property name="ObjectShortName">w_alpha_inverse[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group320" type="group">
+         <obj_property name="label">GF_MULT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_MULT_A" type="array">
+            <obj_property name="ElementShortName">r_MULT_A[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_MULT_A_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_A_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_MULT_B" type="array">
+            <obj_property name="ElementShortName">r_MULT_B[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_MULT_B_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_B_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/w_MULT_P" type="array">
+            <obj_property name="ElementShortName">w_MULT_P[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/w_MULT_P_valid" type="logic">
+            <obj_property name="ElementShortName">w_MULT_P_valid</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P_valid</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_error_occured" type="logic">
+         <obj_property name="ElementShortName">r_error_occured</obj_property>
+         <obj_property name="ObjectShortName">r_error_occured</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_error_bit_position" type="array">
+         <obj_property name="ElementShortName">r_error_bit_position[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_error_bit_position[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/r_error_bit_position_valid" type="logic">
+         <obj_property name="ElementShortName">r_error_bit_position_valid</obj_property>
+         <obj_property name="ObjectShortName">r_error_bit_position_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group319" type="group">
+         <obj_property name="label">const</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+            <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/g_ALPHA_INVERSE_EXPONENT" type="other">
+            <obj_property name="ElementShortName">g_ALPHA_INVERSE_EXPONENT</obj_property>
+            <obj_property name="ObjectShortName">g_ALPHA_INVERSE_EXPONENT</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/c_MAX_CODEWORD_LENGTH" type="other">
+            <obj_property name="ElementShortName">c_MAX_CODEWORD_LENGTH</obj_property>
+            <obj_property name="ObjectShortName">c_MAX_CODEWORD_LENGTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_Chien_Horner_Solver/Chien_Horner_Solver_inst/c_K_MAX" type="other">
+            <obj_property name="ElementShortName">c_K_MAX</obj_property>
+            <obj_property name="ObjectShortName">c_K_MAX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

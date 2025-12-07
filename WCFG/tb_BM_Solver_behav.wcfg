@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BM_Solver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="my_types_pkg" />
+            <top_module name="tb_BM_Solver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,777.916 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,244.417 ns"></ZoomEndTime>
+      <Cursor1Time time="2,371.916 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="279"></NameColumnWidth>
+      <ValueColumnWidth column_width="174"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group109" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group219" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BM_Solver/t_clk_period" type="other">
+            <obj_property name="ElementShortName">t_clk_period</obj_property>
+            <obj_property name="ObjectShortName">t_clk_period</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/RESET_DONE" type="logic">
+            <obj_property name="ElementShortName">RESET_DONE</obj_property>
+            <obj_property name="ObjectShortName">RESET_DONE</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/c_GF_POWER" type="other">
+            <obj_property name="ElementShortName">c_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">c_GF_POWER</obj_property>
+            <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/c_ERR_CORRECTION_CAPACITY" type="other">
+            <obj_property name="ElementShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="ObjectShortName">c_ERR_CORRECTION_CAPACITY</obj_property>
+            <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/i_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">i_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/i_syndrome" type="array">
+         <obj_property name="ElementShortName">i_syndrome[3:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome[3:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/o_sigma" type="array">
+         <obj_property name="ElementShortName">o_sigma[3:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sigma[3:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/o_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">o_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">o_sigma_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group110" type="group">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/i_syndrome_valid" type="logic">
+         <obj_property name="ElementShortName">i_syndrome_valid</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome_valid</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/i_syndrome" type="array">
+         <obj_property name="ElementShortName">i_syndrome[3:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_syndrome[3:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/o_sigma" type="array">
+         <obj_property name="ElementShortName">o_sigma[3:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_sigma[3:0][2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/o_sigma_valid" type="logic">
+         <obj_property name="ElementShortName">o_sigma_valid</obj_property>
+         <obj_property name="ObjectShortName">o_sigma_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group197" type="group">
+         <obj_property name="label">STATE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/present_state" type="other">
+            <obj_property name="ElementShortName">present_state</obj_property>
+            <obj_property name="ObjectShortName">present_state</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/n" type="other">
+            <obj_property name="ElementShortName">n</obj_property>
+            <obj_property name="ObjectShortName">n</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/L" type="other">
+            <obj_property name="ElementShortName">L</obj_property>
+            <obj_property name="ObjectShortName">L</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/m" type="other">
+            <obj_property name="ElementShortName">m</obj_property>
+            <obj_property name="ObjectShortName">m</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group216" type="group">
+         <obj_property name="label">CAL_D</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/i" type="other">
+            <obj_property name="ElementShortName">i</obj_property>
+            <obj_property name="ObjectShortName">i</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/sigma_x" type="array">
+            <obj_property name="ElementShortName">sigma_x[3:0][2:0]</obj_property>
+            <obj_property name="ObjectShortName">sigma_x[3:0][2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/syndrome" type="array">
+            <obj_property name="ElementShortName">syndrome[3:0][2:0]</obj_property>
+            <obj_property name="ObjectShortName">syndrome[3:0][2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/d" type="array">
+            <obj_property name="ElementShortName">d[2:0]</obj_property>
+            <obj_property name="ObjectShortName">d[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group215" type="group">
+         <obj_property name="label">COEFF_UPDATE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/k" type="other">
+            <obj_property name="ElementShortName">k</obj_property>
+            <obj_property name="ObjectShortName">k</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/T_x" type="array">
+            <obj_property name="ElementShortName">T_x[3:0][2:0]</obj_property>
+            <obj_property name="ObjectShortName">T_x[3:0][2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/B_x" type="array">
+            <obj_property name="ElementShortName">B_x[3:0][2:0]</obj_property>
+            <obj_property name="ObjectShortName">B_x[3:0][2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/b" type="array">
+            <obj_property name="ElementShortName">b[2:0]</obj_property>
+            <obj_property name="ObjectShortName">b[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/c" type="array">
+            <obj_property name="ElementShortName">c[2:0]</obj_property>
+            <obj_property name="ObjectShortName">c[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group218" type="group">
+         <obj_property name="label">GF_MULT_HANDSHAKE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_MULT_A" type="array">
+            <obj_property name="ElementShortName">r_MULT_A[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_MULT_A_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_A_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_A_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_MULT_B" type="array">
+            <obj_property name="ElementShortName">r_MULT_B[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_MULT_B_valid" type="logic">
+            <obj_property name="ElementShortName">r_MULT_B_valid</obj_property>
+            <obj_property name="ObjectShortName">r_MULT_B_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/w_MULT_P" type="array">
+            <obj_property name="ElementShortName">w_MULT_P[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/w_MULT_P_valid" type="logic">
+            <obj_property name="ElementShortName">w_MULT_P_valid</obj_property>
+            <obj_property name="ObjectShortName">w_MULT_P_valid</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group209" type="group">
+         <obj_property name="label">GF_DIV_HANDSHAKE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_DIV_A" type="array">
+            <obj_property name="ElementShortName">r_DIV_A[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_DIV_A[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_DIV_A_valid" type="logic">
+            <obj_property name="ElementShortName">r_DIV_A_valid</obj_property>
+            <obj_property name="ObjectShortName">r_DIV_A_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_DIV_B" type="array">
+            <obj_property name="ElementShortName">r_DIV_B[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_DIV_B[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/r_DIV_B_valid" type="logic">
+            <obj_property name="ElementShortName">r_DIV_B_valid</obj_property>
+            <obj_property name="ObjectShortName">r_DIV_B_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/w_DIV_Q" type="array">
+            <obj_property name="ElementShortName">w_DIV_Q[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_DIV_Q[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/w_DIV_Q_valid" type="logic">
+            <obj_property name="ElementShortName">w_DIV_Q_valid</obj_property>
+            <obj_property name="ObjectShortName">w_DIV_Q_valid</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/g_GF_POWER" type="other">
+         <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+         <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/g_ERR_CORRECTION_CAPACITY" type="other">
+         <obj_property name="ElementShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="ObjectShortName">g_ERR_CORRECTION_CAPACITY</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group223" type="group">
+      <obj_property name="label">GF_DIV_INST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_A" type="array">
+         <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_A_valid" type="logic">
+         <obj_property name="ElementShortName">i_A_valid</obj_property>
+         <obj_property name="ObjectShortName">i_A_valid</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_B" type="array">
+         <obj_property name="ElementShortName">i_B[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i_B[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/i_B_valid" type="logic">
+         <obj_property name="ElementShortName">i_B_valid</obj_property>
+         <obj_property name="ObjectShortName">i_B_valid</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/o_Q" type="array">
+         <obj_property name="ElementShortName">o_Q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Q[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/o_Q_valid" type="logic">
+         <obj_property name="ElementShortName">o_Q_valid</obj_property>
+         <obj_property name="ObjectShortName">o_Q_valid</obj_property>
+         <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group224" type="group">
+         <obj_property name="label">reg</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/w_B_INV" type="array">
+            <obj_property name="ElementShortName">w_B_INV[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_B_INV[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/w_B_INV_valid" type="logic">
+            <obj_property name="ElementShortName">w_B_INV_valid</obj_property>
+            <obj_property name="ObjectShortName">w_B_INV_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/w_Q" type="array">
+            <obj_property name="ElementShortName">w_Q[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_Q[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/w_Q_valid" type="logic">
+            <obj_property name="ElementShortName">w_Q_valid</obj_property>
+            <obj_property name="ObjectShortName">w_Q_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group250" type="group">
+         <obj_property name="label">GF_MULT_IN_DIV</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/g_GF_POWER" type="other">
+            <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+            <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+            <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/c_MOD" type="other">
+            <obj_property name="ElementShortName">c_MOD</obj_property>
+            <obj_property name="ObjectShortName">c_MOD</obj_property>
+            <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_clk" type="logic">
+            <obj_property name="ElementShortName">i_clk</obj_property>
+            <obj_property name="ObjectShortName">i_clk</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_n_reset" type="logic">
+            <obj_property name="ElementShortName">i_n_reset</obj_property>
+            <obj_property name="ObjectShortName">i_n_reset</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_A" type="array">
+            <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+            <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_A_valid" type="logic">
+            <obj_property name="ElementShortName">i_A_valid</obj_property>
+            <obj_property name="ObjectShortName">i_A_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_B" type="array">
+            <obj_property name="ElementShortName">i_B[2:0]</obj_property>
+            <obj_property name="ObjectShortName">i_B[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/i_B_valid" type="logic">
+            <obj_property name="ElementShortName">i_B_valid</obj_property>
+            <obj_property name="ObjectShortName">i_B_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/o_P" type="array">
+            <obj_property name="ElementShortName">o_P[2:0]</obj_property>
+            <obj_property name="ObjectShortName">o_P[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/o_P_valid" type="logic">
+            <obj_property name="ElementShortName">o_P_valid</obj_property>
+            <obj_property name="ObjectShortName">o_P_valid</obj_property>
+            <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_MULT_inst/r_zero" type="array">
+            <obj_property name="ElementShortName">r_zero[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_zero[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_MULT_inst/r_zero_valid" type="logic">
+            <obj_property name="ElementShortName">r_zero_valid</obj_property>
+            <obj_property name="ObjectShortName">r_zero_valid</obj_property>
+            <obj_property name="CustomSignalColor">#808000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="group251" type="group">
+            <obj_property name="label">A</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_A_exp" type="array">
+               <obj_property name="ElementShortName">w_A_exp[2:0]</obj_property>
+               <obj_property name="ObjectShortName">w_A_exp[2:0]</obj_property>
+               <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_A_exp_valid" type="logic">
+               <obj_property name="ElementShortName">w_A_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">w_A_exp_valid</obj_property>
+               <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_A_exp" type="other">
+               <obj_property name="ElementShortName">r_A_exp</obj_property>
+               <obj_property name="ObjectShortName">r_A_exp</obj_property>
+               <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_A_exp_valid" type="logic">
+               <obj_property name="ElementShortName">r_A_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">r_A_exp_valid</obj_property>
+               <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group252" type="group">
+            <obj_property name="label">B</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_B_exp" type="array">
+               <obj_property name="ElementShortName">w_B_exp[2:0]</obj_property>
+               <obj_property name="ObjectShortName">w_B_exp[2:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_B_exp_valid" type="logic">
+               <obj_property name="ElementShortName">w_B_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">w_B_exp_valid</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_B_exp" type="other">
+               <obj_property name="ElementShortName">r_B_exp</obj_property>
+               <obj_property name="ObjectShortName">r_B_exp</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_B_exp_valid" type="logic">
+               <obj_property name="ElementShortName">r_B_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">r_B_exp_valid</obj_property>
+               <obj_property name="CustomSignalColor">#FFA500</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group253" type="group">
+            <obj_property name="label">P</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_P_exp" type="array">
+               <obj_property name="ElementShortName">w_P_exp[2:0]</obj_property>
+               <obj_property name="ObjectShortName">w_P_exp[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_P_exp_valid" type="logic">
+               <obj_property name="ElementShortName">w_P_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">w_P_exp_valid</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_P_exp" type="other">
+               <obj_property name="ElementShortName">r_P_exp</obj_property>
+               <obj_property name="ObjectShortName">r_P_exp</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_P_exp_valid" type="logic">
+               <obj_property name="ElementShortName">r_P_exp_valid</obj_property>
+               <obj_property name="ObjectShortName">r_P_exp_valid</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/r_P_index" type="array">
+               <obj_property name="ElementShortName">r_P_index[2:0]</obj_property>
+               <obj_property name="ObjectShortName">r_P_index[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_P_index" type="array">
+               <obj_property name="ElementShortName">w_P_index[2:0]</obj_property>
+               <obj_property name="ObjectShortName">w_P_index[2:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_MULT_inst/w_P_valid" type="logic">
+               <obj_property name="ElementShortName">w_P_valid</obj_property>
+               <obj_property name="ObjectShortName">w_P_valid</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group271" type="group">
+         <obj_property name="label">GF_INV_IN_DIV</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/i_clk" type="logic">
+            <obj_property name="ElementShortName">i_clk</obj_property>
+            <obj_property name="ObjectShortName">i_clk</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/i_n_reset" type="logic">
+            <obj_property name="ElementShortName">i_n_reset</obj_property>
+            <obj_property name="ObjectShortName">i_n_reset</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/i_A" type="array">
+            <obj_property name="ElementShortName">i_A[2:0]</obj_property>
+            <obj_property name="ObjectShortName">i_A[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/i_A_valid" type="logic">
+            <obj_property name="ElementShortName">i_A_valid</obj_property>
+            <obj_property name="ObjectShortName">i_A_valid</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/o_A_INV" type="array">
+            <obj_property name="ElementShortName">o_A_INV[2:0]</obj_property>
+            <obj_property name="ObjectShortName">o_A_INV[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/o_A_INV_valid" type="logic">
+            <obj_property name="ElementShortName">o_A_INV_valid</obj_property>
+            <obj_property name="ObjectShortName">o_A_INV_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/w_A_exp" type="array">
+            <obj_property name="ElementShortName">w_A_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/r_A_exp" type="other">
+            <obj_property name="ElementShortName">r_A_exp</obj_property>
+            <obj_property name="ObjectShortName">r_A_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/r_A_exp_valid" type="logic">
+            <obj_property name="ElementShortName">r_A_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">r_A_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/w_A_exp_valid" type="logic">
+            <obj_property name="ElementShortName">w_A_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">w_A_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/r_A_INV_exp" type="other">
+            <obj_property name="ElementShortName">r_A_INV_exp</obj_property>
+            <obj_property name="ObjectShortName">r_A_INV_exp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/w_A_INV_exp" type="array">
+            <obj_property name="ElementShortName">w_A_INV_exp[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_exp[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/r_A_INV_exp_valid" type="logic">
+            <obj_property name="ElementShortName">r_A_INV_exp_valid</obj_property>
+            <obj_property name="ObjectShortName">r_A_INV_exp_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/w_A_INV_index" type="array">
+            <obj_property name="ElementShortName">w_A_INV_index[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_index[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/w_A_INV_index_valid" type="logic">
+            <obj_property name="ElementShortName">w_A_INV_index_valid</obj_property>
+            <obj_property name="ObjectShortName">w_A_INV_index_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="group272" type="group">
+            <obj_property name="label">reg</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/g_GF_POWER" type="other">
+               <obj_property name="ElementShortName">g_GF_POWER</obj_property>
+               <obj_property name="ObjectShortName">g_GF_POWER</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_BM_Solver/BM_Solver_inst/GF_DIV_inst/GF_INV_inst/c_MOD" type="other">
+               <obj_property name="ElementShortName">c_MOD</obj_property>
+               <obj_property name="ObjectShortName">c_MOD</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
